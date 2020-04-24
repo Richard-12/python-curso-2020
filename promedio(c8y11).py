@@ -1,5 +1,5 @@
 import statistics
-#Obtención del promedio de 3 números
+#Obtención del promedio de 3 notas
 n1=float(input('Ingrese su primera nota '))
 n2=float(input('Ingrese segunda nota '))
 n3=float(input('Ingrese su tercera nota '))
