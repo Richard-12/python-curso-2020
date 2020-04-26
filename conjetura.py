@@ -1,6 +1,6 @@
-from tqdm import tqdm
-# Revisión de conjetura
 
+# Revisión de conjetura
+from tqdm import tqdm
 limite_inferior=int(input('Ingrese el limite inferior del range '))
 limite_superior=int(input('Ingrese el limite superior del range '))
 expresiones_enteras = []
