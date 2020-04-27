@@ -1,3 +1,4 @@
+#Establece si un número dado es primo o no
 def isprime(num):
     if num <1:
         return False
