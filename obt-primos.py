@@ -6,7 +6,7 @@ limite_inferior=int(input('Ingrese el limite inferior del range '))
 limite_superior=int(input('Ingrese el limite superior del range '))
 numeros_primos = []
 for a in tqdm(range(limite_inferior, limite_superior)):
-     #for a in range(limite_inferior, limite_superior):
+
     if isprime(a):
         numeros_primos.append(a)
 

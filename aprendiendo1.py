@@ -1,4 +1,4 @@
-# Aprendiendo sobre conjeturas
+# Aprendiendo sobre conjeturas (No considerar números grandes.
 # Obtención de números primos dentro de ciertos rangos dados
 from tqdm import tqdm
 from sympy import isprime
