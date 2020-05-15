@@ -1,1 +1,0 @@
-#Trabajar con conjuntos o set (clase 30)
