@@ -1,4 +1,4 @@
-#Número positivo o negativo
+#Saber si un Número es positivo o negativo
 a=float(input('Ingrese un número '))
 if a > 0:
     print('positivo ')

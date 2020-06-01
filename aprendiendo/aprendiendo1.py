@@ -7,7 +7,7 @@ limite_inferior=int(input('Ingrese el limite inferior del range '))
 limite_superior=int(input('Ingrese el limite superior del range '))
 numeros_primos = []
 
-# for a in range(limite_inferior, limite_superior):
+#for a in range(limite_inferior, limite_superior):
 for a in tqdm(range(limite_inferior, limite_superior)):
     n = (2 ** (2 ** a)) + 1
     if isprime(n):

@@ -2,7 +2,8 @@
 #m= interruptor
 
 n=int(input('Ingrese el número de múltiplos '))
-m=3
+m=int(input('Ingrese de quién serán los multiplos: '))
+s=m
 for i in range(1,n+1):
-    print(m,end ='-')
-    m=m+3
+    print(s, end= ' ')
+    s=s+m

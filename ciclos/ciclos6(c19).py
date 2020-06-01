@@ -6,4 +6,4 @@ contador =0
 for i in frase:
     if i in vocales:
         contador=contador+1
-print('El número de ocales es: ',contador)
+print('El número de vocales es: ',contador)
