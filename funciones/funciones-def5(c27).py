@@ -1,6 +1,6 @@
 n = 5
 m = 10
-
-def funcion():
+#m=int(input('Ingrese un número'))
+def funcion(m):
     print(m)
-funcion()
+funcion(m)

@@ -1,5 +1,11 @@
 #Obtención de la sucesión de Fibonacci para un número dado
-n=int(input('Ingrese el número de términos '))
+def sumar(a,b=1):
+    resultado=a+b
+    print(resultado)
 
+    if resultado >5000:
+        return
+    sumar(a=resultado, b=a)
+numero=0
+sumar(a=numero)
 
-#1,1,2,3,5,8,13,21,34,...
