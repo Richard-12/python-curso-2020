@@ -5,4 +5,4 @@ i= 1
 while i<=n:
     suma= suma + i
     i=i+1
-print('La suma de los números hasta ',n, 'es: ',suma)
+print('La suma de los números hasta el ',n, 'es: ',suma)
