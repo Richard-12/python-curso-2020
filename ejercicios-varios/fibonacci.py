@@ -2,7 +2,6 @@
 def sumar(a,b=1):
     resultado=a+b
     print(resultado)
-
     if resultado >5000:
         return
     sumar(a=resultado, b=a)

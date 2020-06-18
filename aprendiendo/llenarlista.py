@@ -5,5 +5,5 @@ def sumar(a,b=1):
     if resultado > 10:
         return
 #sumar(resultado,b)
-#numero = 1
-#sumar(1)
+numero = 1
+sumar(1)

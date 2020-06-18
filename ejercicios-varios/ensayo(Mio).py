@@ -12,13 +12,13 @@ def isprime(num):
 
 
 def app():
-    num = int(input('write a number \n '))
+    num = int(input('Escriba un número \n '))
     result = isprime(num)
 
     if result is True:
-        print('The number is prime!!')
+        print('El número',num, 'es primo ')
     else:
-        print('The number is not prime!!')
+        print('El número',num, 'no es primo')
 
 
 app()
