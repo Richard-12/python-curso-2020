@@ -1,6 +1,6 @@
 #separa una lista en pares e impares
 
-ejemplo=[3,7,9,5,3,7,12]
+ejemplo=[39,7,9,5,3,7,12]
 
 def separar_lista(lista):
     lista.sort()
@@ -16,3 +16,4 @@ def separar_lista(lista):
 pares,impares=separar_lista(ejemplo)
 print(pares)
 print(impares)
+print(ejemplo)

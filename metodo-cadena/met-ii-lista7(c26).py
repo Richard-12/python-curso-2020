@@ -1,4 +1,5 @@
-#Invierte el orden en la lista
-lista=[2,7,8,14,8,12,6]
-lista.reverse()
-print(lista)
+#Multiplica los elementos de una lista
+import numpy as np
+mylist=[1,2,3,4,5,6]
+result =np.prod(np.array(mylist))
+print(result)
